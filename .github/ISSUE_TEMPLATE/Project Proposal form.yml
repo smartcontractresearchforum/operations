@@ -7,9 +7,9 @@ assignees:
 body:
 #### submitter name ####
   -type: input
-    id: submitter name
+    id: submitter-name
     attributes:
-      label: submitter-name
+      label: Submitter name
       description: Enter the name of the submitter in Firstname, Lastname format
       placeholder: Firstname, Lastname
     validations:
