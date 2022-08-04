@@ -1,19 +1,10 @@
 name: Project proposal form
 description: Please use this form to propose your project for review. The decision of the review will be communicated to you. 
-title: "Project Title "
+title: "Enter Project Title here"
 labels: ["proposal"]
 # assignees:
 
 body: 
-  - type: input
-    id: project-name
-    attributes:
-      label: Project Name
-      description: Enter the name of the Project here. 
-      placeholder: Project name...
-    validations:
-      required: true
-      
   - type: input
     id: submitter-name
     attributes:
