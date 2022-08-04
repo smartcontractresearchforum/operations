@@ -5,7 +5,6 @@ labels: ["proposal"]
 # assignees:
 
 body: 
-#### Project Name ####
     - type: input
     id: project-name
     attributes:
