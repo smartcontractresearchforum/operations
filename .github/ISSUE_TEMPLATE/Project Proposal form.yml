@@ -1,8 +1,8 @@
 name: Project proposal form
-description: Please use this form to propose a project for review.
+description: Please use this form to propose a project for review
 title: "Project Title "
 labels: ["proposal"]
-# assignees: SirAh0
+# assignees:
 
 body: 
   - type: input
