@@ -20,7 +20,7 @@ body:
     attributes:
       label: submitter-github-id
       description: Enter the Github ID of the submitter in @username format
-      placeholder: @username
+      placeholder: username
     validations:
       required: true
 #### project vision #### 
