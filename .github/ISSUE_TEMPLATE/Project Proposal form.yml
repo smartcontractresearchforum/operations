@@ -13,7 +13,7 @@ body:
       placeholder: Project name...
     validations:
       required: true
-body: 
+      
   - type: input
     id: submitter-name
     attributes:
