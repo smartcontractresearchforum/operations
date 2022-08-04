@@ -1,0 +1,122 @@
+name: Project proposal form
+description: Please use this form to propose a project for review.
+title: "Project Title "
+labels: ["proposal"]
+assignees:
+ # - assignee name
+body:
+#### submitter name ####
+  - type: input
+    id: submitter name
+    attributes:
+      label: submitter-name
+      description: Enter the name of the submitter in Firstname, Lastname format
+      placeholder: Firstname, Lastname
+    validations:
+      required: true
+#### submitter Github ID ####  
+  - type: input
+    id: Identifying information
+    attributes:
+      label: submitter-github-id
+      description: Enter the Github ID of the submitter in @username format
+      placeholder: @username
+    validations:
+      required: true
+#### project vision #### 
+  - type: textarea
+    id: project-vision
+    attributes:
+      label: Project Vision
+      description: Please tell us your  briefly about the vision you have for this project.
+      placeholder: type in your vision here
+      #value: my vision
+    validations:
+      required: true
+#### OKRs #### 
+   - type: textarea
+    id: okr
+    attributes:
+      label: Objectives and Key results
+      description: Objective: Sets out a direction for your project & Key results: Measurable Results or targets that would help measure the progress of the project.
+      placeholder: Please inlcude both objectives and key results...
+      #value: my vision
+    validations:
+      required: true
+
+#### Project vertical #### 
+  - type: dropdown
+    id: vertical
+    attributes:
+      label: Vertical
+      description: What vertical within SCRF does your project fall under?
+      options:
+        - label: unsure
+        - label: Opertations
+        - label: Discovery 
+        - label: Engagement
+    validations:
+      required: true
+#### Alignment with scrf #### 
+  - type: textarea
+    id: alignment
+    attributes:
+      label: Alignment with SCRF's [Vision and Mission](https://github.com/smartcontractresearchforum/docs) #change this later
+      description: How does your  project align with SCRF's vision and Mission
+      placeholder: alignment with SCRF...
+      validations:
+        required: true
+#### deliverables ####         
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: What would be the deliverables of the project once it is completed?
+      placeholder: Deliverables...
+      validations:
+        required: true
+#### Project team #### 
+  - type: textarea
+    id: project-team
+    attributes:
+      label: Project team
+      description: Who would be involved in this project? Please list all collaborators
+      placeholder: Project Lead: Firstname, Lastname ; email@example.com ; availability: 15h/week
+                   Other Collaborators: 
+                   1. Firstname, Lastname ; email@example.com ; availability: 15h/week
+                   2. Firstname, Lastname ; email@example.com ; availability: 15h/week...
+      validations:
+        required: true
+#### MVP ####
+  - type: dropdown
+    id: mvp
+    attributes:
+      label: mvp
+      description: Is a Minimum  Viable Project possible with the project?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+#### Duration ####
+   - type: input
+    id: duration
+    attributes:
+      label: Duration
+      description: What is the expected duration of the project?
+      placeholder: 2 months...
+    validations:
+      required: true
+#### Target Audience ####
+  - type: checkboxes
+    id: target-audience
+    attributes:
+      label: Target audience
+      description: Who are the target audience for this project? Select all that applies.
+      options:
+        - SCRF Internal
+        - Academics
+        - Industry
+        - Other
+        
+          
