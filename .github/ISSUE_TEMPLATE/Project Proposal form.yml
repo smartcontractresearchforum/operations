@@ -33,17 +33,7 @@ body:
     validations:
       required: true
 
-#### OKRs #### 
-  - type: textarea
-    id: project-vision
-    attributes:
-      label: Project Vision
-      description: Please tell us your  briefly about the vision you have for this project.
-      placeholder: type in your vision here
-      #value: my vision
-    validations:
-      required: true
-
+#### OKRs ####   
   - type: textarea
     id: okr
     attributes:
@@ -109,8 +99,8 @@ body:
       label: mvp
       description: Is a Minimum  Viable Project possible with the project?
       options:
-        - Yes
-        - No
+        - ✔️
+        - ❌
     validations:
       required: true    
 
