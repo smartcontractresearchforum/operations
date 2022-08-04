@@ -71,7 +71,7 @@ body:
   - type: textarea
     id: alignment
     attributes:
-      label: Alignment with SCRFs "[Vision and Mission](https://github.com/smartcontractresearchforum/docs)" #change this later
+      label: Alignment with SCRFs Vision and Mission #"[Vision and Mission](https://github.com/smartcontractresearchforum/docs)" #change this later
       description: How does your  project align with SCRFs vision and Mission?
       placeholder: Alignment with SCRF...
     validations:
