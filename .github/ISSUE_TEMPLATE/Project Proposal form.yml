@@ -4,8 +4,8 @@ title: "Enter Project Title here"
 labels: ["proposal"]
 # assignees:
 
-body: 
-    - type: input
+body:
+  - type: input
     id: project-name
     attributes:
       label: Project Name
