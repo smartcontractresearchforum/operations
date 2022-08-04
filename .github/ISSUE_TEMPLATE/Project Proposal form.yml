@@ -54,18 +54,16 @@ body:
       required: true
 
 #### Project vertical #### 
-  - type: dropdown
+ - type: checkboxes
     id: vertical
     attributes:
-      label: Vertical
-      description: Which vertical within SCRF does your project fall under?
+      label: Which vertical within SCRF does your project fall under?
+      description: Who are the target audience for this project? Select all that applies.
       options:
         - label: Unsure
-        - label: Opertations
-        - label: Discovery 
+        - label: Operations
+        - label: Discovery
         - label: Engagement
-    validations:
-      required: true
   
 #### Alignment with scrf #### 
   - type: textarea
