@@ -5,6 +5,16 @@ labels: ["proposal"]
 # assignees:
 
 body: 
+#### Project Name ####
+    - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: Enter the name of the project
+      placeholder: project name...
+    validations:
+      required: true
+#### Submitter name ####
   - type: input
     id: submitter-name
     attributes:
