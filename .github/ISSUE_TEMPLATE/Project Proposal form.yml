@@ -54,7 +54,7 @@ body:
       required: true
 
 #### Project vertical #### 
- - type: checkboxes
+  - type: checkboxes
     id: vertical
     attributes:
       label: Which vertical within SCRF does your project fall under?
