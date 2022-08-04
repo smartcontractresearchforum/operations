@@ -96,7 +96,7 @@ body:
   - type: dropdown
     id: mvp
     attributes:
-      label: mvp
+      label:  Is MVP Possible?
       description: Is a Minimum  Viable Project possible with the project?
       options:
         - ✔️
