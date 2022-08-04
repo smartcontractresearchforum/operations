@@ -51,10 +51,10 @@ body:
       label: Vertical
       description: Which vertical within SCRF does your project fall under?
       options:
-        - Unsure
-        - Opertations
-        - Discovery 
-        - Engagement
+        - label: Unsure
+        - label: Opertations
+        - label: Discovery 
+        - label: Engagement
     validations:
       required: true
   
