@@ -1,7 +1,7 @@
 name: Project proposal form
 description: Please use this form to propose your project for review. The decision of the review will be communicated to you. 
 title: "[Proposal]: "
-labels: proposal
+labels: Proposal
 # assignees:
 
 body:
