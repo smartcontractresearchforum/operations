@@ -1,4 +1,4 @@
-name: New proposal workflow
+name: proposal workflow
 on:
   issues:
     types: [opened, labeled]
