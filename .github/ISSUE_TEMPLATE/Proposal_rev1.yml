@@ -1,0 +1,14 @@
+name: Project proposal form Rev1
+description: place holder 
+title: "[Proposal]: "
+labels: ["Ops: Proposal"]
+
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: Enter the name of the project
+      placeholder: project name...
+    validations:
+      required: true
