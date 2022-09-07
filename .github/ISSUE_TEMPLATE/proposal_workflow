@@ -1,0 +1,20 @@
+name: New proposal workflow
+on:
+  issues:
+    types: [opened, labeled]
+jobs:
+  move-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 
+        uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
+        if: |
+              github.event_name == 'issues' &&
+              (
+                github.event.action == 'opened' &&
+                contains(github.event.issue.labels.*.name, 'Ops: Proposal')
+              )
+        with:
+          project: https://github.com/orgs/smartcontractresearchforum/projects/47
+          column: Proposal Requests
+          repo-token: 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
