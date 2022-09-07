@@ -12,7 +12,7 @@ jobs:
           github.event_name == 'issues' &&
               (
                 github.event.action == 'opened' &&
-                contains(github.event.issue.labels.*.name, 'Ops: Proposal')
+                contains(github.event.issue.labels.*.name, 'xyz')
               )   
         with:
           project: 'https://github.com/orgs/smartcontractresearchforum/projects/47'
