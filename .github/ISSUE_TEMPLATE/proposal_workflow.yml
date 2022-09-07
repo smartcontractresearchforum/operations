@@ -17,4 +17,4 @@ jobs:
         with:
           project: 'https://github.com/orgs/smartcontractresearchforum/projects/47'
           column: 'Todo'
-          repo-token: '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'
+          repo-token: $'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'
