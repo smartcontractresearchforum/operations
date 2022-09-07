@@ -15,6 +15,6 @@ jobs:
                 contains(github.event.issue.labels.*.name, 'Ops: Proposal')
               )   
         with:
-          project: https://github.com/orgs/smartcontractresearchforum/projects/47
-          column: Proposal Requests
-          repo-token: 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
+          project: 'https://github.com/orgs/smartcontractresearchforum/projects/47'
+          column: 'Proposal Requests'
+          repo-token: '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'
