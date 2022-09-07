@@ -1,20 +1,26 @@
-name: proposal workflow
+name: Auto Assign to Project(s)
+
 on:
   issues:
     types: [opened, labeled]
+  pull_request:
+    types: [opened, labeled]
+  issue_comment:
+    types: [created]
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
-  move-issue:
+  assign_one_project:
     runs-on: ubuntu-latest
+    name: Assign to One Project
     steps:
-      - name: abc
-        uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
-        if: |
-          github.event_name == 'issues' &&
-              (
-                github.event.action == 'opened' &&
-                contains(github.event.issue.labels.*.name, 'xyz')
-              )   
-        with:
-          project: 'https://github.com/orgs/smartcontractresearchforum/projects/47'
-          column: 'Todo'
-          repo-token: $'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'
+    - name: Assign NEW issues and NEW pull requests to project 2
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: |
+        contains(github.event.issue.labels.*.name, 'bug') ||
+        contains(github.event.pull_request.labels.*.name, 'bug')
+      with:
+        project: 'https://github.com/orgs/smartcontractresearchforum/projects/47'
+
+   
