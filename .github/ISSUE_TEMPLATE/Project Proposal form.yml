@@ -132,4 +132,12 @@ body:
         - label: Industry
         - label: Other
         
-          
+#### Link to G-Doc ####         
+  - type: textarea
+    id: G-Doc
+    attributes:
+      label: G-Doc
+      description: Please give a link to the proposal Google Doc.
+      placeholder: link...
+    validations:
+      required: true
