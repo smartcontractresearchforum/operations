@@ -117,7 +117,7 @@ body:
   - type: checkboxes
     id: target-audience
     attributes:
-      label: Target audience
+      label: Target audience 
       description: Who are the target audience for this project? Select all that applies.
       options:
         - label: SCRF Internal
