@@ -64,6 +64,8 @@ body:
         - label: Operations
         - label: Discovery
         - label: Engagement
+        - label: Content
+        - label: Outreach
   
 #### Alignment with scrf #### 
   - type: textarea
