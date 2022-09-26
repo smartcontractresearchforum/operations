@@ -24,7 +24,7 @@ Network Mapping Initiative aims at exploring the idea of generating network maps
 ### The Audit Database Initiative
 The Audit Database will enable querying and data analysis over the content of different audit reports by collecting, standardizing, cleaning, and storing existing audit reports in some form of a central database directly available to researchers.
 
-### Peer-Review Experiment
-
+### Peer-Review Experiment Project
+The Peer-Review Experiment Project aims at Designing, testing & documenting a forkable, modular process of peer review as a public good (without sacrificing quality from the existing process) that can be validated by open science communities.
 
 ## Get in touch
