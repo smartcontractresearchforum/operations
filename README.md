@@ -6,15 +6,11 @@
 ## About the Operations Team
 At SCRF the Operations team is responsible for day-to-day operations, grants, and special projects.
 
-## About the Team
+## Team Lead
 
 [Eugene Leventhal](https://www.linkedin.com/in/eugene-leventhal/) - Head of Operations and Outreach at SCRF
 
 Eugene is currently the Head of Operations and Outreach at SCRF, where he oversees primary research support, strategic partnerships, hiring, and overall operations. Prior to joining SCRF, Eugene worked as a Project Manager at Carnegie Mellon University’s CyLab Security and Privacy Institute. He also has seven years of experience working in professional services around the finance industry between New York and Hong Kong. Eugene got into the space working on a DAO project in 2016 focused on exploring the use of DAOs for community crowdfunding for schools and nonprofits. 
-
-### Other members of the team
-
-[Inês Santos Silva](https://www.linkedin.com/in/inessantossilva/) - Project Manager
 
 ## Main Projects
 
