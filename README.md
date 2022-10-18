@@ -13,3 +13,9 @@ At SCRF the Operations team is responsible for day-to-day operations, grants, an
 Eugene is currently the Head of Operations and Outreach at SCRF, where he oversees primary research support, strategic partnerships, hiring, and overall operations. Prior to joining SCRF, Eugene worked as a Project Manager at Carnegie Mellon University’s CyLab Security and Privacy Institute. He also has seven years of experience working in professional services around the finance industry between New York and Hong Kong. Eugene got into the space working on a DAO project in 2016 focused on exploring the use of DAOs for community crowdfunding for schools and nonprofits. 
 
 ## Get in touch
+
+Reach out to us via email. 
+
+## Learn More About SCRF
+
+The Smart Contract Research Forum (SCRF) is a grant-funded organization dedicated to advancing research while serving the web3 space. [Learn](https://github.com/smartcontractresearchforum/docs) more about SCRF, and discover ways to [get involved](https://github.com/smartcontractresearchforum/docs/blob/main/en/content_connecting_with_scrf.md).
